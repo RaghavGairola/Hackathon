@@ -1,4 +1,4 @@
-package test;
+package com.selenium.tests;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -10,7 +10,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.testng.annotations.Test;
 
-import base.BasePage;
+import com.selenium.pages.BasePage;
 
 public class TestCases extends BasePage {
 

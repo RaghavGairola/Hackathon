@@ -1,4 +1,4 @@
-package utilities;
+package com.selenium.setup;
 import java.util.Date;
 public class Dateutils {
 

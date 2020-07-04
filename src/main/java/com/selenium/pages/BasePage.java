@@ -1,4 +1,4 @@
-package base;
+package com.selenium.pages;
 
 import java.io.File;
 import java.io.FileInputStream;
