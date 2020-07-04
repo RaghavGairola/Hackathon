@@ -1,5 +1,6 @@
 package com.selenium.tests;
 
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -12,7 +13,8 @@ import org.testng.annotations.Test;
 
 import com.selenium.pages.BasePage;
 
-public class TestCases extends BasePage {
+
+public class PositiveTestCases extends BasePage {
 
 	@Test
 	public void test1() throws IOException {
@@ -25,6 +27,4 @@ public class TestCases extends BasePage {
 		quitBrowser();
 
 	}
-
-	
 }
