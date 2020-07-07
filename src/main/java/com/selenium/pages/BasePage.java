@@ -17,8 +17,8 @@ import org.testng.Assert;
 
 
 public class BasePage {
-	public WebDriver Driver;
-	public Properties prop;
+	public static WebDriver Driver;
+	public static Properties prop;
 	public void invokeBrowser(String Browsername) {
 		try {
 			if (Browsername.equalsIgnoreCase("Chrome")) {
