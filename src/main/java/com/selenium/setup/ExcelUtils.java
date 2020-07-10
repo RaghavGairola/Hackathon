@@ -24,14 +24,24 @@ public class ExcelUtils {        //Do not change the class name
 		XSSFSheet sheet = workBook.getSheet(sheetName);
 		XSSFRow row;
 		XSSFCell cell;
+//		Row row;
+//		Cell cell;
 		row=sheet.getRow(0);
-		String[] userData = new String[1];
-		for(int i=0;i<1;i++)
+		String[] userData = new String[4];
+		for(int i=0;i<4;i++)
 		{
 			cell = row.getCell(i);
+//			new DataFormatter().formatCellValue(cell);
+			System.out.println(cell.toString());
+			if (i == 2) {
+				System.out.println((int)Math.round(cell.getNumericCellValue()));
+				int a = (int)Math.round(cell.getNumericCellValue());
+				String str = Integer.toString(a);
+				userData[i] = str;
+				continue;
+			}
 			userData[i] = cell.toString();
 		}
-		System.out.println(userData[0]);
 		return userData;
 	}
 

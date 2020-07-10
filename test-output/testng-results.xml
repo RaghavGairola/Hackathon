@@ -2,30 +2,30 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27249" started-at="2020-07-07T14:38:06Z" finished-at="2020-07-07T14:38:33Z">
+  <suite name="Default suite" duration-ms="77182" started-at="2020-07-10T12:29:22Z" finished-at="2020-07-10T12:30:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27249" started-at="2020-07-07T14:38:06Z" finished-at="2020-07-07T14:38:33Z">
+    <test name="Default test" duration-ms="77182" started-at="2020-07-10T12:29:22Z" finished-at="2020-07-10T12:30:39Z">
       <class name="com.selenium.tests.PositiveTestCases">
-        <test-method status="FAIL" signature="test1()[pri:0, instance:com.selenium.tests.PositiveTestCases@1593948d]" name="test1" duration-ms="27201" started-at="2020-07-07T20:08:06Z" finished-at="2020-07-07T20:08:33Z">
+        <test-method status="FAIL" signature="test1()[pri:0, instance:com.selenium.tests.PositiveTestCases@1593948d]" name="test1" duration-ms="77081" started-at="2020-07-10T17:59:22Z" finished-at="2020-07-10T18:00:39Z">
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[element click intercepted: Element <button type="image" id="search_button">...</button> is not clickable at point (952, 80). Other element would receive the click: <div class="login-message">...</div>
+              <![CDATA[element click intercepted: Element <div class="gname">...</div> is not clickable at point (414, 186). Other element would receive the click: <div class="col-md-6">...</div>
   (Session info: chrome=83.0.4103.116)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'UPES-500052384', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\500052~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53135}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 9161db47bf1352d9d1bc512583db801e]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\500052~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57278}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bdaecee39e25476852b340f985da234a]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="image" id="search_button">...</button> is not clickable at point (952, 80). Other element would receive the click: <div class="login-message">...</div>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="gname">...</div> is not clickable at point (414, 186). Other element would receive the click: <div class="col-md-6">...</div>
   (Session info: chrome=83.0.4103.116)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'UPES-500052384', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\500052~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53135}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 9161db47bf1352d9d1bc512583db801e
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\500052~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57278}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bdaecee39e25476852b340f985da234a
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -38,8 +38,8 @@ Session ID: 9161db47bf1352d9d1bc512583db801e
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at com.selenium.pages.HomePage.setSearch(HomePage.java:21)
-	at com.selenium.tests.PositiveTestCases.test1(PositiveTestCases.java:52)
+	at com.selenium.pages.SearchResultPage.setSorageType(SearchResultPage.java:57)
+	at com.selenium.tests.PositiveTestCases.test1(PositiveTestCases.java:61)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
