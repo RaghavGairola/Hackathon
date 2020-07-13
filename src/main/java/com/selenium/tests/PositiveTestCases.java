@@ -58,7 +58,7 @@ public class PositiveTestCases extends BasePage {
 //		SearchResultPage.setCategory(array[1]);
 		System.out.println(Integer.parseInt(array[2]));
 		SearchResultPage.setPriceRangeUL(Integer.parseInt(array[2]));
-		SearchResultPage.setSorageType(array[3]);
+//		SearchResultPage.setSorageType(array[3]);
 		
 		try {
 			Thread.sleep(4000);
@@ -66,6 +66,8 @@ public class PositiveTestCases extends BasePage {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
+		SearchResultPage.snapshot();
 		
 		quitBrowser();
 

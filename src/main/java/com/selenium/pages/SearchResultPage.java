@@ -1,9 +1,16 @@
 package com.selenium.pages;
 
+import java.io.File;
+import java.io.IOException;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+
+import com.google.common.io.Files;
 
 public class SearchResultPage {
 	public WebDriver driver;
@@ -56,6 +63,15 @@ public class SearchResultPage {
 		
 		driver.findElement(By.xpath(xpathStorageType)).click();
 		driver.findElement(By.xpath(xpathStorageTypeValue)).click();
+	}
+	
+	public void snapshot() throws IOException {
+
+		TakesScreenshot snap = (TakesScreenshot) driver;
+		File actual = snap.getScreenshotAs(OutputType.FILE);
+//		System.getProperty("user.dir") + "\\src\\Drivers
+		File destFile = new File(System.getProperty("user.dir") + "\\Screenshots/S1.png");
+		Files.copy(actual, destFile);
 	}
 
 }
